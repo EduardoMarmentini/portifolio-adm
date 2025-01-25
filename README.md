@@ -1,1 +1,1 @@
-# Portifolio de uma academica de ADM.
+# Portifolio de uma academica de ADM
