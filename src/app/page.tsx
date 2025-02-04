@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { Header } from "@/components/Header";
 import { AboutMe } from "@/components/AboutMe";
 import { Education } from "@/components/Education";
@@ -31,4 +30,3 @@ export default function Home() {
     </div>
   );
 }
-  

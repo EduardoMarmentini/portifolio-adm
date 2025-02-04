@@ -1,13 +1,12 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react"
-import { motion } from "framer-motion"
 
 export function Contact() {
-  const buttonVariants = {
-    hover: { scale: 1.1 },
-    tap: { scale: 0.95 },
-  }
+  // const buttonVariants = {
+  //   hover: { scale: 1.1 },
+  //   tap: { scale: 0.95 },
+  // }
 
   return (
     <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-xl border border-[#6D273D]">
@@ -22,19 +21,19 @@ export function Contact() {
           </div>
           <div className="flex items-center space-x-3">
             <Phone className="h-5 w-5 text-[#6D273D]" />
-            <span className="text-[#2D111A]">(11) 98765-4321</span>
+            <span className="text-[#2D111A]">(45) 99851-9017</span>
           </div>
           <div className="flex items-center space-x-3">
             <Mail className="h-5 w-5 text-[#6D273D]" />
-            <span className="text-[#2D111A]">ana.silva@email.com</span>
+            <span className="text-[#2D111A]">deboracristinabonordt@gmail.com</span>
           </div>
           <div className="flex items-center space-x-3">
             <Linkedin className="h-5 w-5 text-[#6D273D]" />
-            <span className="text-[#2D111A]">linkedin.com/in/anasilva</span>
+            <span className="text-[#2D111A]">https://www.linkedin.com/in/deborabonordt/</span>
           </div>
           <div className="flex items-center space-x-3">
             <Instagram className="h-5 w-5 text-[#6D273D]" />
-            <span className="text-[#2D111A]">@ana.silva.admin</span>
+            <span className="text-[#2D111A]">@deborabonordt</span>
           </div>
         </div>
         <div className="flex justify-center space-x-4 mt-6">

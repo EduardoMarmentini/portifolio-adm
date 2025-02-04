@@ -8,23 +8,23 @@ type Skill = {
 export function Skills() {
   const softSkills: Skill[] = [
     {
-      name: "Liderança",
+      name: " - Liderança",
       description: "Capacidade de motivar e guiar equipes, promovendo um ambiente colaborativo e produtivo.",
     },
     {
-      name: "Comunicação efetiva",
+      name: " - Comunicação efetiva",
       description: "Habilidade de transmitir ideias de forma clara e persuasiva, tanto oralmente quanto por escrito.",
     },
     {
-      name: "Resolução de problemas",
+      name: " - Resolução de problemas",
       description: "Aptidão para analisar situações complexas e desenvolver soluções criativas e eficazes.",
     },
     {
-      name: "Adaptabilidade",
+      name: " - Adptabilidade",
       description: "Flexibilidade para se ajustar rapidamente a novas situações e ambientes de trabalho dinâmicos.",
     },
     {
-      name: "Inteligência emocional",
+      name: " - Inteligência emocional",
       description:
         "Capacidade de reconhecer e gerenciar emoções próprias e alheias, promovendo relações interpessoais positivas.",
     },
@@ -32,27 +32,27 @@ export function Skills() {
 
   const hardSkills: Skill[] = [
     {
-      name: "Gestão de Projetos",
+      name: " - Gestão de Projetos",
       description:
         "Experiência em planejamento, execução e monitoramento de projetos usando metodologias ágeis e tradicionais.",
     },
     {
-      name: "Análise Financeira",
+      name: " - Análise Financeira",
       description:
         "Competência em interpretar demonstrações financeiras, realizar projeções e avaliar a viabilidade de investimentos.",
     },
     {
-      name: "Marketing Digital",
+      name: " - Marketing Digital",
       description: "Conhecimento em estratégias de SEO, mídias sociais e análise de métricas para campanhas online.",
     },
     {
-      name: "Pacote Office Avançado",
+      name: " - Pacote Office Avançado",
       description:
         "Domínio de ferramentas como Excel, PowerPoint e Word para análise de dados e apresentações executivas.",
     },
     {
-      name: "Inglês Avançado",
-      description: "Fluência para conduzir negociações, apresentações e redigir relatórios em inglês.",
+      name: " - Espanhol Intermediario",
+      description: "Capacidade para manter um dialogo, e redigir pequenos relatórios no idioma.",
     },
   ]
 
