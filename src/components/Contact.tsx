@@ -1,12 +1,11 @@
+'use client'
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
+import Link from 'next/link';
 import { Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react"
 
 export function Contact() {
-  // const buttonVariants = {
-  //   hover: { scale: 1.1 },
-  //   tap: { scale: 0.95 },
-  // }
 
   return (
     <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-xl border border-[#6D273D]">
@@ -37,39 +36,45 @@ export function Contact() {
           </div>
         </div>
         <div className="flex justify-center space-x-4 mt-6">
-          {/* <motion.div variants={buttonVariants} whileHover="hover" whileTap="tap"> */}
             <Button
               variant="outline"
               size="icon"
+              onClick={() => window.location.href = "mailto:deboracristinabonordt@gmail.com"}
               className="bg-white hover:bg-[#F1D4DC] text-[#6D273D] border-[#6D273D]"
             >
               <Mail className="h-4 w-4" />
               <span className="sr-only">Email</span>
             </Button>
-          {/* </motion.div> */}
-          {/* <motion.div variants={buttonVariants} whileHover="hover" whileTap="tap"> */}
-            <Button
-              variant="outline"
-              size="icon"
-              className="bg-white hover:bg-[#F1D4DC] text-[#6D273D] border-[#6D273D]"
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/deborabonordt/"
+              >
+              <Button
+                variant="outline"
+                size="icon"
+                className="bg-white hover:bg-[#F1D4DC] text-[#6D273D] border-[#6D273D]"
+              >
+                <Linkedin className="h-4 w-4" />
+                <span className="sr-only">LinkedIn</span>
+              </Button>
+            </ Link>
+            <Link 
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.instagram.com/deborabonordt/"
             >
-              <Linkedin className="h-4 w-4" />
-              <span className="sr-only">LinkedIn</span>
-            </Button>
-          {/* </motion.div> */}
-          {/* <motion.div variants={buttonVariants} whileHover="hover" whileTap="tap"> */}
-            <Button
-              variant="outline"
-              size="icon"
-              className="bg-white hover:bg-[#F1D4DC] text-[#6D273D] border-[#6D273D]"
-            >
-              <Instagram className="h-4 w-4" />
-              <span className="sr-only">Instagram</span>
-            </Button>
-          {/* </motion.div> */}
+              <Button
+                variant="outline"
+                size="icon"
+                className="bg-white hover:bg-[#F1D4DC] text-[#6D273D] border-[#6D273D]"
+              >
+                <Instagram className="h-4 w-4" />
+                <span className="sr-only">Instagram</span>
+              </Button>
+            </ Link>
         </div>
       </CardContent>
     </Card>
   )
 }
-

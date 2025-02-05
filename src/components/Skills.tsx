@@ -34,16 +34,17 @@ export function Skills() {
     {
       name: " - Gestão de Projetos",
       description:
-        "Experiência em planejamento, execução e monitoramento de projetos usando metodologias ágeis e tradicionais.",
+      "Experiência em planejamento, execução e monitoramento de projetos usando metodologias ágeis e tradicionais.",
+    },
+    {
+      name: " - Processo Contábeis",
+      description:
+        "Experiência em análise e organização de processos fiscais e contábeis, gestão de informações financeiras com foco em conformidade e precisão, além de conciliação de dados e gerenciamento eficiente de múltiplas demandas.",
     },
     {
       name: " - Análise Financeira",
       description:
         "Competência em interpretar demonstrações financeiras, realizar projeções e avaliar a viabilidade de investimentos.",
-    },
-    {
-      name: " - Marketing Digital",
-      description: "Conhecimento em estratégias de SEO, mídias sociais e análise de métricas para campanhas online.",
     },
     {
       name: " - Pacote Office Avançado",
